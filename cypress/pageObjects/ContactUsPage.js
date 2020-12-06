@@ -1,5 +1,5 @@
 class ContactUsPage {
 
-    
+
 }
-    export default ContactUsPage;
+export default ContactUsPage;

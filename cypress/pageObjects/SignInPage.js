@@ -1,7 +1,7 @@
 class SignInPage {
-    visit() {
-      cy.visit('?controller=my-account');
-    }
+  visit() {
+    cy.visit('?controller=my-account');
   }
-  
-  export default SignInPage;
+}
+
+export default SignInPage;

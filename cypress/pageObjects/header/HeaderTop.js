@@ -1,27 +1,27 @@
 class HeaderTop {
-    getSignInLink() {
-      return cy.get('.login');
-    }
+  getSignInLink() {
+    return cy.get('.login');
+  }
 
   getContactUsLink() {
     return cy.get('#contact-link > a');
   }
 
-getLogoLink(){
+  getLogoLink() {
     return cy.get('.logo');
   }
 
-getSearchInput(){
+  getSearchInput() {
     return cy.get('#search_query_top');
   }
 
-getSearchBtn(){
+  getSearchBtn() {
     return cy.get('#searchbox > .btn');
   }
 
-getCartLink(){
+  getCartLink() {
     return cy.get('[title="View my shopping cart"]');
   }
 }
-  
+
 export default HeaderTop;
